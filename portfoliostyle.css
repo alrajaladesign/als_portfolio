@@ -101,3 +101,46 @@ input#resume{
     text-align:left;
 }
 
+
+#work1{
+    width: 900px; 
+    height: 300px; 
+    position: relative; 
+    top: 10px;
+    left: 275px;
+    background-color: #CFE3B5; 
+    border-radius: 25px;
+    color: #7C6450;
+}
+
+#work2{
+    width: 900px; 
+    height: 300px; 
+    position: relative; 
+    top: 30px;
+    left: 275px;
+    background-color: #EBADB8; 
+    border-radius: 25px;
+    color: #7C6450;
+}
+
+#link1{
+    position: relative;
+    left: 400px;
+    top: 25px;
+    font-size: 20px; 
+    color: #7C6450;
+    font-weight: bold; 
+   
+}
+
+#link2{
+    position: relative;
+    left: 50px;
+    top: 25px;
+    font-size: 20px; 
+    color: #7C6450;
+    font-weight: bold; 
+}
+
+
