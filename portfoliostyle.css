@@ -129,6 +129,7 @@ input#resume{
     color: #7C6450;
     font-weight: bold; 
     text-decoration: underline; 
+    background-color: none;
    
 }
 
@@ -141,6 +142,7 @@ input#resume{
     font-weight: bold; 
     hover: none; 
     text-decoration: underline; 
+    background-color: none; 
 }
 
 #projecttext{
