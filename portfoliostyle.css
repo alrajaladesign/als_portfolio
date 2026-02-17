@@ -140,4 +140,14 @@ input#resume{
     font-weight: bold; 
 }
 
+#projecttext{
+    position: absolute;
+    top: 100px; 
+    right: 350px;
+    width: 800px;
+    height: auto; 
+    color: #7C6450;
+    font-size: 20px;
+}
+
 
