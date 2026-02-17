@@ -121,19 +121,18 @@ input#resume{
     color: #7C6450;
 }
 
-#link1{
+#link1, #link1:hover{
     position: relative;
     left: 400px;
     top: 25px;
     font-size: 20px; 
     color: #7C6450;
     font-weight: bold; 
-    hover: none;
     text-decoration: underline; 
    
 }
 
-#link2{
+#link2, #link2:hover{
     position: relative;
     left: 50px;
     top: 25px;
