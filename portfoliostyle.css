@@ -128,6 +128,8 @@ input#resume{
     font-size: 20px; 
     color: #7C6450;
     font-weight: bold; 
+    hover: none;
+    text-decoration: underline; 
    
 }
 
@@ -138,6 +140,8 @@ input#resume{
     font-size: 20px; 
     color: #7C6450;
     font-weight: bold; 
+    hover: none; 
+    text-decoration: underline; 
 }
 
 #projecttext{
