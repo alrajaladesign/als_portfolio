@@ -11,7 +11,7 @@ a{
     padding: 20px;
 }
 
-a:hover{
+#nav a:hover{
     background-color: #7C6450;
     color: white;
 }
