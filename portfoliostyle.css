@@ -155,4 +155,15 @@ input#resume{
     font-size: 20px;
 }
 
+#home1, #home1:hover{
+    position: relative; 
+    left: 200px; 
+    color: #7C6450;
+}
+
+#home2, #home2:hover{
+    position: relative;
+    right: 200px; 
+    color: #7C6450;
+}
 
