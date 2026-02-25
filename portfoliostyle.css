@@ -157,13 +157,21 @@ input#resume{
 
 #home1, #home1:hover{
     position: relative; 
-    left: 200px; 
+    left: 400px; 
+    top: 50px; 
     color: #7C6450;
+    font-size: 20px; 
+    font-weight: bold; 
+    text-decoration: underline; 
 }
 
 #home2, #home2:hover{
     position: relative;
-    right: 200px; 
+    top: 50px; 
+    right: 400px; 
     color: #7C6450;
+    font-size: 20px; 
+    font-weight: bold; 
+    text-decoration: underline; 
 }
 
