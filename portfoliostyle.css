@@ -158,7 +158,7 @@ input#resume{
 #home1, #home1:hover{
     position: relative; 
     left: 250px; 
-    top: 50px; 
+    top: 25px; 
     color: #7C6450;
     font-size: 20px; 
     font-weight: bold; 
@@ -167,7 +167,7 @@ input#resume{
 
 #home2, #home2:hover{
     position: relative;
-    top: 50px; 
+    top: 25px; 
     right: 250px; 
     color: #7C6450;
     font-size: 20px; 
