@@ -88,7 +88,7 @@ h1{
     left: 600px;
 }
 
-input#resume{
+input#resume, input#sendbutton{
     background-color: #EBADB8; 
     width: 75px; 
     height: 35px;
