@@ -19,6 +19,7 @@
                 emailjs.sendForm('contact_service', 'contact_form', this)
                     .then(() => {
                         console.log('SUCCESS!');
+                        alert('Success! Your message has been sent.');
                     }, (error) => {
                         console.log('FAILED...', error);
                     });
@@ -64,4 +65,5 @@
     }
 
 </style>
+
 
