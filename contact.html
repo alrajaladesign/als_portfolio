@@ -1,34 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Me</title>
-    <link rel="stylesheet" href="portfoliostyle.css">
+    <title>Contact Form</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "rHM34ElhzyIJxM3iQ",
+            });
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(() => {
+                        console.log('SUCCESS!');
+                    }, (error) => {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 <body>
-    
- <div id="nav">
+    <div id="nav">
     <a href="index.html"> HOME</a>
     <a href="about.html"> ABOUT</a>
     <a href="work.html"> WORK</a>
     <a href="contact.html"> CONTACT</a>
 </div>
-<br><br><br>
-
-<center>
-<h1>Contact Me</h1>
-</center>
-
-<div id="contact_text">
-<p> If you're interested in my work and would like to contact me to discuss job opportunities or to work together, feel free to email me!</p>
-<p>E-mail: al.rajala.design@gmail.com</p>
-<p> I can't wait to hear from you and potentially work together!</p>
-</div>
-
-
+    <center>
+        <h1>Contact Me</h1>
+    <form id="contact-form">
+        <!-- To simplify the tutorial, the value is static. -->
+        <input type="hidden" name="time" value="Mar 10 2025 08:46">
+        <label>Name</label><br>
+        <input type="text" name="name" required><br><br>
+        <label>Email</label><br>
+        <input type="email" name="email" required><br><br>
+        <label>Subject</label><br>
+        <input type="text" name="title" required><br><br>
+        <label>Message</label><br>
+        <textarea name="message" required></textarea><br><br>
+        <input type="submit" value="Send">
+    </form>
+    </center>
 </body>
 </html>
-<script>
-
-</script>
+<style>
+    #contact-form{
+        position: absolute;
+        background-color: #EBADB8;
+        width: 500px; 
+        height: auto;
+        left: 500px;
+        top: 150px;
+        padding: 20px;
+    }
+</style>
