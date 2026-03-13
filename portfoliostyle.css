@@ -34,7 +34,7 @@ h1{
 
 #image{
     position: absolute; 
-    top: 150px; 
+    top: 110px; 
     right: 300px;
     width: 250px; 
     height: 250px;
@@ -58,6 +58,11 @@ h1{
     background-color: #EBADB8; 
     border-radius: 25px;
     color: #7C6450;
+}
+
+#projectarea{
+    height: 900px;
+    width: auto;
 }
 
 #photo{
