@@ -44,7 +44,7 @@ h1{
     width: 900px; 
     height: 300px; 
     position: relative; 
-    top: 400px;
+    top: 200px;
     background-color: #CFE3B5; 
     border-radius: 25px;
     color: #7C6450;
@@ -61,7 +61,8 @@ h1{
 }
 
 #projectarea{
-    height: 900px;
+    background-color: white;
+    height: 1000px;
     width: auto;
 }
 
