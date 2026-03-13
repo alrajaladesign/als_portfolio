@@ -113,6 +113,9 @@ input#resume, input#sendbutton{
     text-align:left;
 }
 
+#contact-form{
+    text-align: left;
+}
 
 #work1{
     width: 900px; 
